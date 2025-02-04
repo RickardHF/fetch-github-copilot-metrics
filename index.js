@@ -6,7 +6,6 @@ const main = async () => {
     const token = core.getInput("token", { required: true });
     const org = core.getInput("org", { required: true });
     const file_name = core.getInput("file_name") || "copilot-metrics";
-    console.log(`Fetching Copilot Metrics for ${org}`);
 
     const octokit = new github.getOctokit(token);
 
@@ -14,7 +13,6 @@ const main = async () => {
       org: org,
     });
 
-    console.log(response.data);
     // write the response to file
     const fs = require("fs");
     fs.writeFileSync(
