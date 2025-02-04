@@ -1,0 +1,16 @@
+{
+  "name": "fetch-github-copilot-metrics",
+  "version": "1.0.0",
+  "description": "GitHub Action for fetching Metrics of usage of GitHub Copilot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "RickardHF",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  }
+}
