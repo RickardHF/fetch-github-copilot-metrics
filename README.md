@@ -7,7 +7,7 @@ Allows you to easily fetch the metrics from the GitHub Copilot API and store the
 
 ```yaml
 - name: Fetch GitHub Copilot Metrics
-  uses: RickardHF/fetch-metrics-action@v1
+  uses: RickardHF/fetch-metrics-action@v1.0.1
   with:
     token: <A GitHub Token, preferably from a GitHub App>
     org: <Your GitHub Organization Slug>
