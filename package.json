@@ -2,10 +2,11 @@
   "name": "fetch-github-copilot-metrics",
   "version": "1.0.0",
   "description": "GitHub Action for fetching Metrics of usage of GitHub Copilot",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "bundle": "npx prettier --write . && npx ncc build index.js -o dist"
   },
   "author": "RickardHF",
   "license": "MIT",

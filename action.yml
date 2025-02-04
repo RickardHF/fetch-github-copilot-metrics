@@ -1,21 +1,21 @@
-name: 'Fetch GitHub Copilot Metrics'
-description: 'Fetches the usage metrics for GitHub Copilot'
-author: 'RickardHF'
+name: "Fetch GitHub Copilot Metrics"
+description: "Fetches the usage metrics for GitHub Copilot"
+author: "RickardHF"
 
 inputs:
   token:
-    description: 'GitHub token, should be a token from a GitHub App or a PAT'
+    description: "GitHub token, should be a token from a GitHub App or a PAT"
     required: true
   org:
-    description: 'The organization to fetch metrics for'
+    description: "The organization to fetch metrics for"
     required: true
   file-name:
-    description: 'The name of the file to write the metrics to'
+    description: "The name of the file to write the metrics to"
     required: true
-    default: 'copilot-metrics'
+    default: "copilot-metrics"
 outputs:
   time: # id of output
-    description: 'The time we greeted you'
+    description: "The time we greeted you"
 runs:
-  using: 'node20'
-  main: 'index.js'
+  using: "node20"
+  main: "index.js"

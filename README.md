@@ -20,7 +20,8 @@ Allows you to easily fetch the metrics from the GitHub Copilot API and store the
 
 **Required** A GitHub Token, preferably from a GitHub App.
 
-__NOTE:__ This token needs at least of the following permissions to be set to be able to fetch the metrics.
+**NOTE:** This token needs at least of the following permissions to be set to be able to fetch the metrics.
+
 - "GitHub Copilot Business" organization permissions (read)
 - "Administration" organization permissions (read)
 
