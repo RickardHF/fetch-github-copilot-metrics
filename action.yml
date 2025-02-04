@@ -1,8 +1,9 @@
 name: "Fetch GitHub Copilot Metrics"
 description: "Fetches the usage metrics for GitHub Copilot"
 author: "RickardHF"
-icon: "activity"
-color: "blue"
+branding:
+  icon: "activity"
+  color: "blue"
 
 inputs:
   token:
