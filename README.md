@@ -32,3 +32,7 @@ Allows you to easily fetch the metrics from the GitHub Copilot API and store the
 ### `file-name`
 
 **Optional** The name of the file to store the metrics in. Default: 'copilot-metrics'.
+
+## Outputs
+
+The action will store the metrics in a JSON file with the name specified in the `file-name` input with the file extension `.json`. The file can then be used in further steps in your workflow. Eg. to upload the file as an artifact, handle the metrics in a script, upload the data to a database or blob container, etc.
